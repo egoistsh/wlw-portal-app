@@ -1,0 +1,187 @@
+.todo-list {
+  margin-top: -4px;
+}
+
+.second-block-item {
+  position: relative;
+  height: 300px;
+}
+
+.portal-more-ext {
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+
+.login-tab {
+  font-size: 17px;
+  color: #777;
+}
+
+.el-tabs__item.is-active .login-tab  {
+  /*color: #0266B7;*/
+  color: #db0d0d;
+}
+
+.login-main-container .el-tabs__active-bar {
+  background-color: #db0d0d !important;
+}
+
+.second-block .el-tabs__nav-wrap {
+  margin-bottom: -6px;
+}
+
+/*MSS应用系统图标*/
+/*计划建设*/
+.plan-construction {
+  width: 41px;
+  height: 40px;
+  background-position: 0 -209px;
+}
+/*运维成本*/
+.logistics {
+  width: 38px;
+  height: 41px;
+  background-position: -81px -169px;
+}
+/*合同管理*/
+.contract {
+  width: 40px;
+  height: 40px;
+  background-position: -120px -169px;
+}
+/*采购辅助*/
+.file {
+  width: 42px;
+  height: 41px;
+  background-position: -79px -128px;
+}
+/*财务辅助*/
+.financial {
+  width: 38px;
+  height: 39px;
+  background-position: -120px -129px;
+}
+/*ICT*/
+.ITSM {
+  width: 43px;
+  height: 38px;
+  background-position: -40px -169px;
+}
+
+/*通讯录*/
+.mail-list .el-dropdown {
+  color: #ffffff;
+}
+
+/*轮播图 start*/
+.srcoll-tabs{
+  position: absolute;
+  top: 90%;
+  right: 0;
+  z-index: 2;
+
+  /*display: inline-block;*/
+  width:73px;
+  margin:0 auto;
+  text-align: center;
+}
+.srcoll-tabs li{
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin-right:5px;
+  vertical-align: middle;
+  /*background:rgba(36,125,244,0.2);*/
+  background: #ffffff;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.srcoll-tabs li.img-active{
+  background:rgba(36,125,244,1)
+}
+
+.title-process {
+  position: absolute;
+  top: 84%;
+  left: 1%;
+  color: #ffffff;
+}
+/*轮播图 end*/
+
+/*应用系统按钮*/
+.mss-ul-box .el-carousel__arrow {
+  border-radius: 0;
+  width: 20px;
+  height: 50px;
+}
+.mss-ul-box .el-carousel__arrow--left {
+  left: 0;
+}
+.mss-ul-box .el-carousel__arrow--right {
+  right: 0;
+}
+
+/*登录页按钮*/
+.login-btn{
+  width:100%;
+  height:45px;
+  line-height: 45px;
+  margin-top:25px !important;
+  color:#fff !important;
+  background:url("../img/wl_loginbtn.png") no-repeat !important;
+  text-align: center;
+  cursor: pointer;
+  background-size: cover;
+}
+
+.acount-container.login-form-box form > div{
+  padding-top:15px;
+  height:123px;
+}
+
+/*文章详情页样式 start*/
+
+/*面包屑*/
+.breadcrumb {
+  padding: 20px 0;
+}
+
+
+
+/*文章详情页样式 end*/
+
+.check-detail {
+  cursor: pointer;
+}
+
+/*新年主题 start*/
+#header {
+  background:#db0d0d;
+}
+
+#footer{
+  background: #db0d0d;
+}
+
+.top-menu{
+  background: #db0d0d;
+  /*font-family: 宋体;*/
+}
+/*新年主题 end*/
+.menu-list {
+ font-size: 18px;
+}
+.block-title {
+  font-size: 18px;
+}
+.second-block .el-tabs__item {
+  font-size: 17px;
+}
+
+/* 二级列表分页 */
+.articles-pagination {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 300px;
+}
